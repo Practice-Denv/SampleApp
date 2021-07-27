@@ -22,7 +22,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source-directory: '/'
+        source-directory: 'Practive-Denv/SampleApp'
         destination-github-username: 'm3c0d322'
         destination-repository-name: 'Practice-Prod/SampleAPp'
         user-email: fsalonga.it.dof@gmail.com
